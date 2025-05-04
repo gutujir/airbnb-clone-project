@@ -67,6 +67,112 @@ Identifying the design properties of a mockup is crucial for ensuring that the d
 - **Containerization:** Docker
 - **CI/CD:** GitHub Actions, Docker Hub
 
+## Project Roles and Responsibilities
+
+In this section, we define the key roles and responsibilities for each team member in the Airbnb Clone project. Each role contributes to the success of the project by ensuring the timely delivery of features and maintaining the overall quality of the application.
+
+### 1. Project Manager
+
+**Responsibilities:**
+
+- Oversee the project timeline and ensure that deadlines are met.
+- Coordinate the team and ensure all tasks are completed on time.
+- Manage deliverables and communicate with stakeholders.
+
+**Contribution to Success:**
+The Project Manager ensures that the project stays on track, meets deadlines, and fulfills the overall project goals.
+
+---
+
+### 2. Frontend Developers
+
+**Responsibilities:**
+
+- Implement UI components using HTML, CSS, and JavaScript (React or similar framework).
+- Ensure responsive and mobile-first design for a seamless user experience.
+- Work closely with Designers to bring mockups to life.
+
+**Contribution to Success:**
+Frontend developers ensure the user interface is intuitive, responsive, and meets design specifications, making the app accessible and user-friendly.
+
+---
+
+### 3. Backend Developers
+
+**Responsibilities:**
+
+- Build and maintain APIs to manage data between the frontend and the database.
+- Implement business logic and handle server-side operations.
+- Manage database and ensure that data is securely stored and retrieved.
+
+**Contribution to Success:**
+Backend developers ensure that the server, database, and application logic work seamlessly to provide a reliable user experience.
+
+---
+
+### 4. Designers
+
+**Responsibilities:**
+
+- Create mockups and wireframes using tools like Figma.
+- Develop and maintain a consistent design system.
+- Focus on creating a user-centric experience by emphasizing ease of use and visual appeal.
+
+**Contribution to Success:**
+Designers ensure that the application is visually appealing and provides a seamless user experience through well-designed UI components and layouts.
+
+---
+
+### 5. QA/Testers
+
+**Responsibilities:**
+
+- Write test cases and perform unit and integration testing.
+- Identify and report bugs and inconsistencies.
+- Ensure that the application functions as expected under various conditions.
+
+**Contribution to Success:**
+QA/Testers are critical for maintaining the quality and stability of the project, ensuring that users encounter minimal issues.
+
+---
+
+### 6. DevOps Engineers
+
+**Responsibilities:**
+
+- Manage deployment processes and ensure continuous integration and continuous deployment (CI/CD).
+- Monitor server infrastructure and application performance.
+- Ensure scalability and reliability of the deployment environment.
+
+**Contribution to Success:**
+DevOps Engineers ensure that the application can be reliably deployed and scaled while keeping the system's performance optimal.
+
+---
+
+### 7. Product Owner
+
+**Responsibilities:**
+
+- Define project requirements and features.
+- Prioritize tasks based on business value and user needs.
+- Act as the primary liaison between stakeholders and the development team.
+
+**Contribution to Success:**
+The Product Owner ensures that the project delivers the most valuable features first and that the product aligns with business goals and user needs.
+
+---
+
+### 8. Scrum Master
+
+**Responsibilities:**
+
+- Facilitate agile processes and ensure team collaboration.
+- Remove blockers that prevent progress on tasks.
+- Organize and lead sprint planning, retrospectives, and daily standups.
+
+**Contribution to Success:**
+The Scrum Master ensures that the team works efficiently by facilitating communication, resolving issues, and maintaining the agile workflow.
+
 ## 👥 Team Roles
 
 To ensure the successful completion of the Airbnb Clone project, the team is organized into the following roles, each with distinct responsibilities:
