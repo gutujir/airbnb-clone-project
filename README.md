@@ -153,3 +153,39 @@ Handles secure payment processing for bookings. Includes features like payment s
 ### 🔹 Admin Panel (Optional Advanced Feature)
 
 An administrative dashboard for managing users, properties, and bookings. Useful for overseeing system activity and performing moderation or data correction.
+
+## 🔒 API Security
+
+Securing our backend APIs is essential to ensure the integrity, privacy, and trustworthiness of the Airbnb Clone platform. Below are the key security measures and their purposes:
+
+### 🔐 Authentication
+
+We will implement secure authentication mechanisms using JWT (JSON Web Tokens) or OAuth 2.0 to verify user identity. This ensures that only legitimate users can access their accounts and interact with the system.
+
+**Why it's crucial**: Prevents unauthorized access to user accounts and protects sensitive data such as email, personal information, and preferences.
+
+### 🛂 Authorization
+
+Role-based access control (RBAC) will be enforced to ensure users can only access resources and actions permitted for their roles (e.g., host, guest, admin).
+
+**Why it's crucial**: Protects system functionality by restricting access to sensitive operations, such as deleting properties or modifying bookings.
+
+### 🚦 Rate Limiting
+
+API rate limiting will be applied to prevent abuse and DDoS (Distributed Denial of Service) attacks. Users will have a defined number of requests allowed per minute/hour.
+
+**Why it's crucial**: Preserves backend performance, protects against brute force attacks, and ensures fair usage for all users.
+
+### 🔒 HTTPS & Data Encryption
+
+All API communication will be secured with HTTPS, and sensitive data (like passwords and payment info) will be encrypted using secure hashing algorithms and tokenization techniques.
+
+**Why it's crucial**: Prevents man-in-the-middle attacks, eavesdropping, and data leaks.
+
+### 📊 Input Validation & Error Handling
+
+Strict validation of API inputs will be implemented to prevent common exploits like SQL injection, XSS (Cross-site scripting), and other injection attacks. Clear but secure error messages will be returned.
+
+**Why it's crucial**: Ensures data integrity and system stability, while preventing attackers from exploiting vulnerabilities.
+
+These security layers work together to protect the application, user data, and payment transactions, making the platform resilient to threats and maintaining user trust.
