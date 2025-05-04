@@ -40,6 +40,24 @@ The Airbnb Clone is a full-stack web application that replicates the core featur
 
 A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Key design principles, such as clear navigation, intuitive interfaces, and responsive layouts, ensure that users can complete their tasks quickly and efficiently. A smooth, engaging design can significantly impact the overall user experience and boost the application's success.
 
+### Color Styles:
+
+- **Primary**: #FF5A5F
+- **Secondary**: #008489
+- **Background**: #FFFFFF
+- **Text**: #222222
+- **Secondary Text**: #717171
+
+### Typography:
+
+- **Primary Font**: Circular, Medium (500), 16px
+- **Headings**: Circular, Bold (700), 24px-32px
+- **Secondary Text**: Circular, Book (400), 14px
+
+### Importance of Identifying Design Properties in a Mockup:
+
+Identifying the design properties of a mockup is crucial for ensuring that the design is consistent and user-friendly. It helps developers and designers align on visual elements like color schemes, typography, and spacing, which ensures the product looks polished and cohesive. Additionally, understanding these design properties allows the team to effectively implement the design in the development phase, ensuring that the final product meets the intended user experience and branding standards.
+
 ## ⚙️ Technology Stack
 
 - **Backend:** Django, Django REST Framework
