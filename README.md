@@ -69,3 +69,59 @@ This project utilizes a modern technology stack to ensure scalability, maintaina
 | **Redis**                       | An in-memory data structure store used for caching, session management, and as a message broker for Celery.                                                    |
 | **Docker**                      | A containerization tool used to package the application and its dependencies into portable containers, ensuring consistency across development and deployment. |
 | **GitHub Actions**              | A CI/CD tool used to automate testing, linting, and deployment workflows whenever code changes are pushed to the repository.                                   |
+
+## 🗃️ Database Design
+
+This section outlines the core database entities, key fields, and relationships in the Airbnb Clone project.
+
+### 🔹 Entities and Key Fields
+
+#### 1. **User**
+
+- `id`: Unique identifier for the user
+- `name`: Full name of the user
+- `email`: User’s email address (unique)
+- `password`: Encrypted password for authentication
+- `role`: Specifies if the user is a guest or host
+
+#### 2. **Property**
+
+- `id`: Unique property identifier
+- `title`: Title or name of the property
+- `description`: Detailed property description
+- `location`: Address or coordinates of the property
+- `host_id`: Foreign key referencing the User (host)
+
+#### 3. **Booking**
+
+- `id`: Unique booking identifier
+- `user_id`: Foreign key referencing the User (guest)
+- `property_id`: Foreign key referencing the Property
+- `check_in_date`: Start date of the booking
+- `check_out_date`: End date of the booking
+
+#### 4. **Review**
+
+- `id`: Unique review identifier
+- `user_id`: Foreign key referencing the User
+- `property_id`: Foreign key referencing the Property
+- `rating`: Numeric rating value
+- `comment`: Textual review of the property
+
+#### 5. **Payment**
+
+- `id`: Unique payment identifier
+- `booking_id`: Foreign key referencing the Booking
+- `amount`: Total payment amount
+- `payment_method`: Type of payment (e.g., credit card, PayPal)
+- `status`: Payment status (e.g., completed, pending, failed)
+
+### 🔗 Entity Relationships
+
+- A **User** can host multiple **Properties**.
+- A **User** can make multiple **Bookings**.
+- A **Booking** is associated with one **User** (guest) and one **Property**.
+- A **Review** is made by a **User** and is linked to one **Property**.
+- A **Payment** is linked to one **Booking**.
+
+This relational model ensures efficient data access, referential integrity, and clear data flow for user actions like listing properties, making bookings, and processing payments.
