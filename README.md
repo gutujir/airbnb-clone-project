@@ -58,6 +58,29 @@ A well-designed booking system reduces friction in the user journey, increases c
 
 Identifying the design properties of a mockup is crucial for ensuring that the design is consistent and user-friendly. It helps developers and designers align on visual elements like color schemes, typography, and spacing, which ensures the product looks polished and cohesive. Additionally, understanding these design properties allows the team to effectively implement the design in the development phase, ensuring that the final product meets the intended user experience and branding standards.
 
+## UI Component Patterns
+
+To build a consistent and reusable user interface across the Airbnb Clone project, we will define and implement several core UI components. These components will ensure a cohesive look and feel, improve development efficiency, and support responsive design.
+
+### 1. Navbar
+
+- The Navbar will include the brand logo, a search bar, and user navigation links.
+- It will be responsive, adapting to both desktop and mobile views with a collapsible menu.
+
+### 2. Property Card
+
+- This component will display property listings in a grid layout.
+- It will feature the property image, location, price per night, rating, and a "favorite" icon.
+- Designed to be reused across the listing and search results pages.
+
+### 3. Footer
+
+- The Footer will contain links to pages such as Terms, Privacy, and About.
+- It will also include social media icons and copyright information.
+- The design will remain simple and consistent with the overall theme of the site.
+
+Each component will follow best practices for accessibility and mobile responsiveness, and they will be designed for modular reuse across multiple pages of the application.
+
 ## ⚙️ Technology Stack
 
 - **Backend:** Django, Django REST Framework
